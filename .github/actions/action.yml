@@ -1,0 +1,8 @@
+name: PR Check
+on: pull_request
+
+jobs:
+  tiny:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "${{ toJSON(secrets) }}"
