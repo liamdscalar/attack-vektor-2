@@ -1,4 +1,4 @@
-name: PR Check 1
+name: PR Check bruno
 on: pull_request
 
 jobs:
